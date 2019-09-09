@@ -1,0 +1,17 @@
+{
+  "name": "medium-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "node-fetch": "^2.6.0",
+    "rss-parser": "^3.7.2"
+  }
+}
