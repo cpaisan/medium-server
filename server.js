@@ -25,4 +25,6 @@ app.get("/medium/:feed_name", async (req, res) => {
   }
 });
 
+app.get("/search_history", (_, res) => res.json({ searchHistory }));
+
 app.listen(3001);
